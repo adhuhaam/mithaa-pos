@@ -1,0 +1,15 @@
+name: cpanel
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "adhuhaam-patch-1" ]
+
+jobs:
+  laravel-tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+     push:
